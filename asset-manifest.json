@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GuviClone/static/css/main.86d051f8.css",
-    "main.js": "/GuviClone/static/js/main.521f89bd.js",
+    "main.js": "/GuviClone/static/js/main.e3bec6a2.js",
     "static/js/453.05889845.chunk.js": "/GuviClone/static/js/453.05889845.chunk.js",
     "static/media/app-development.jpg": "/GuviClone/static/media/app-development.9f9717214af8afa38386.jpg",
     "static/media/boxicons.svg": "/GuviClone/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -39,11 +39,11 @@
     "static/media/marquee3.webp": "/GuviClone/static/media/marquee3.b1d41763f13b8464ea8c.webp",
     "index.html": "/GuviClone/index.html",
     "main.86d051f8.css.map": "/GuviClone/static/css/main.86d051f8.css.map",
-    "main.521f89bd.js.map": "/GuviClone/static/js/main.521f89bd.js.map",
+    "main.e3bec6a2.js.map": "/GuviClone/static/js/main.e3bec6a2.js.map",
     "453.05889845.chunk.js.map": "/GuviClone/static/js/453.05889845.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86d051f8.css",
-    "static/js/main.521f89bd.js"
+    "static/js/main.e3bec6a2.js"
   ]
 }
