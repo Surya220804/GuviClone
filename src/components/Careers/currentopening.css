@@ -1,0 +1,51 @@
+.openings-container{
+    background-color: black;
+}
+.current-openings{
+   color: white;
+   text-align: center;
+   padding: 20px;
+   margin: 20px;
+}
+.openening-roles{
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    /* padding-left: 40px; */
+    justify-content: center;
+    gap: 30px;
+}
+.opening-images{
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    height: 410px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.opening-images:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+      transform: scale(1.05);
+      color:blue;
+      border-radius: 10px;
+}
+.opening-images img{
+    height: 300px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.role{
+    color: white;
+    padding-left: 20px;
+}
+.apply-btn{
+    background:none;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    padding-left: 20px;
+    cursor: pointer;
+}

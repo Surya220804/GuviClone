@@ -1,0 +1,61 @@
+.footer-total-container{
+    background-color:#2C2C2C;
+    color: grey;
+    list-style: none;
+}
+.footer-container{
+    display: flex;
+    gap: 40px;
+    line-height: 60px;
+
+}
+.online-class li,.company-detail li,.Practice-Platform li,.popular-course li{
+    list-style: none;
+    cursor: pointer;
+}
+.live-class{
+    position: absolute;
+    padding-left: 10px;
+}
+.live-class button{
+   background-color:#454545;
+   color: white;
+    font-weight: bolder;
+    padding: 12px;
+}
+.live-class li{
+    list-style: disc;
+    position:absolute;
+    bottom: 10px;
+    left: 37px;
+    color: red;
+    /* background-color: 10px solid red; */
+    font-size: xx-large;
+}
+.online-class li:hover,.company-detail li:hover,.Practice-Platform li:hover,.popular-course li:hover{
+   transform: scale(1.01);
+   color: white;
+}
+.footer-heading{
+    color: white;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.content-left{
+   max-width: 600px;
+   line-height: 1.5;
+}
+.content-right{
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+    font-size: large;
+}
+.icons{
+    height: 40px;
+    cursor: pointer;
+}
+

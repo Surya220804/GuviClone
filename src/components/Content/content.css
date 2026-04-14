@@ -1,0 +1,120 @@
+
+.manualSlide-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #C9DEBE; */
+    height: 400px;
+    /* margin-top: 2%; */
+}
+.content-heading,.content-para{
+    text-align: center;
+}
+.content-heading li{
+    color: red;
+    position: absolute;
+    left: 34%;
+    /* font-size: 50px; */
+}
+.content-para{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: bold;
+}
+.manual-slider{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 100px;
+    border-radius: 100px;
+    /* background-color: red; */
+}
+.manual-slide{
+    background-color: white;
+    border: 1px solid #C9DEBE;
+    box-shadow: #C9DEBE;
+    height: 400px;
+    width: 350px;
+    /* text-align: center; */
+    overflow: hidden;
+    object-fit: cover;
+}
+.manual-slide img{
+    width: 350px;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.syllabus-btn,.know-btn{
+    height: 50px;
+     width: 140px;
+    background-color: green;
+    color: white;
+    border:1px solid #C9DEBE;
+    cursor: pointer;
+
+}
+.syllabus-btn:hover{
+    background-color: rgba(0, 128, 0, 0.637);
+}
+.know-btn{
+    background-color: white;
+    color: black;
+}
+.know-btn:hover{
+    background-color:rgba(0, 0, 0, 0.678);
+    color: white;
+}
+.prev-btn,.next-btn{
+    color: black;
+    background:none;
+    border: none;
+    font-size: large;
+    position: absolute;
+    cursor: pointer;
+    top: 130%;
+
+}
+.prev-btn{
+    left: -0px;
+}
+.next-btn{
+    right:-0px;
+}
+.lanuguage-icon {
+    position: absolute;
+    /* left: 130px; */
+    padding-left: 80px;
+    color:rgba(0, 0, 0, 0.815);
+}
+.language-p{
+    color: gray;
+    text-align: center;
+
+}
+.course-names{
+    padding-left: 10px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.781);
+}
+.view-all-btn{
+    position: relative;
+    margin-top: 4%;
+    left: 45%;
+    height: 60px;
+    width: 240px;
+    font-size: large;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.view-all-btn:hover{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+}

@@ -1,0 +1,21 @@
+.frontend-container{
+    background-color: #F0F5FA;
+    line-height: 1.5;
+}
+.role-heading{
+    padding-left: 50px;
+}
+.frontend-form{
+    position: relative;
+    padding-top: 20px;
+    left: 30%;
+    background-color: #FFFFFF;
+    width: 700px;
+    padding: 10px;
+}
+.frontend-form img{
+    position: relative;
+    left: 10%;
+    width: 500px;
+    border-radius: 10px;
+}

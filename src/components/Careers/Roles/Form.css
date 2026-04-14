@@ -1,0 +1,25 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.forms label{
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.forms input,textarea{
+    width: 600px;
+    padding: 10px;
+    /* border:none; */
+    outline: none;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+}
+.submit-btn{
+    margin: 10px;
+    width: 200px;
+    padding: 13px;
+    background-color: rgba(0, 0, 255, 0.808);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

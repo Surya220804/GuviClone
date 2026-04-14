@@ -1,0 +1,38 @@
+.career-container{
+    box-sizing: border-box;
+}
+.full-width-img img{
+    /* width: 100%; */
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    filter:brightness(50%) ;
+}
+.text-on-image{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 44%;
+    font-size: xxx-large;
+}
+.Why-join-us{
+    display: flex;
+    justify-content: space-between;
+}
+.why-join-text{
+    padding-left: 70px;
+    max-width: 700px;
+    line-height: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: large;
+}
+.why-join-img{
+    padding: 20px 100px 0px 0px;
+}
+.why-join-img img{
+    height: 400px;
+    width: 600px;
+}
+.heading-career{
+    padding-left: 20px;
+}
