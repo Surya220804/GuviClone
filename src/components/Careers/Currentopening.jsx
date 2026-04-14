@@ -6,7 +6,7 @@ import AppdevelopmentImage from './images/app-development.jpg'
 import manualTesting from './images/manualtesting.jpg'
 import UIUXImage from './images/uiux.jpeg'
 import dataAnalystImage from './images/dataanalyst.jpg'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 function Currentopening() {
   const openingRoles=[
     {

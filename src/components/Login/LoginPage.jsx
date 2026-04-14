@@ -37,7 +37,7 @@ const [isactive,setIsactive]=useState(false)
                 <i className='bx bxs-lock-alt'></i>
             </div>
             <div className="forgot-link">
-                <a href="#">Forgot Password?</a>
+                <a href="#!" onClick={(e) => e.preventDefault()}>Forgot Password?</a>
             </div>
 
           </>)}

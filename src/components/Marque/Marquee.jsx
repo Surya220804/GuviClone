@@ -20,7 +20,7 @@ function Marquees() {
         <h1 style={{textAlign:'center',color:'blue'}}>Our Assosiate Partners</h1>
         <Marquee speed={100}>
             {images.map((img)=>(
-                <img src={img} className='marquee-img'/>
+                <img src={img} className='marquee-img' alt={`partner-${img}`} />
             ))}
         </Marquee>
     </div>

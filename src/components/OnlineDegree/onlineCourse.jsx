@@ -1,6 +1,6 @@
 import React from 'react'
 import './online.css'
-import OnlineImage from './OnlineDegree.webp'
+// import OnlineImage from './OnlineDegree.webp'
 function OnlineCourse() {
     console.log("FDeom")
   return (
